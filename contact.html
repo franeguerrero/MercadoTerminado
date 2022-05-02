@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chivilcoy Ahorro</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h2 id="logo" href="index.html">CHIVILCOY AHORRO</h2>
+      <nav>
+        <ul>
+            <li>
+                <a href="index.html"><i class="fa-solid fa-house"></i>Inicio</a>
+              </li>
+              <li>
+                <a href="products.html"><i class="fa-solid fa-bag-shopping"></i></i>Catálogo</a>
+              </li>
+              <li>
+                <a href="contact.html"><i class="fa-solid fa-comment"></i>Contacto</a>
+              </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="contact">
+        <form action="#">
+          <div id="fnameLname">
+              <input type="text" id="fname" name="firstname" placeholder="Nombre" required minlength="3" maxlength="20" >
+
+              <input type="text" id="lname" name="lastname" placeholder="Apellido" required minlength="3" maxlength="20">
+          </div>
+
+          <input type="email" id="email" name="email" placeholder="Correo" required>
+
+      
+          
+          <textarea id="subject" name="subject" placeholder="Escriba su consulta" style="height:200px"></textarea>
+      
+          <input type="submit" id="btn" value="Enviar">
+      
+        </form>
+      </div>
+      <script src="src/contact.ts"></script>
+      <script src="src/fa.js" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,502 @@
+[
+  {
+    "code": 1001001,
+    "product": "Yerba Mate Andresito",
+    "stock": 56,
+    "cost": 180,
+    "revenue": 54,
+    "grossPrice": 234,
+    "iva": 49.14,
+    "finalPrice": 283.14
+  },
+  {
+    "code": 1001002,
+    "product": "Yerba Mate Amanda",
+    "stock": 23,
+    "cost": 220,
+    "revenue": 66,
+    "grossPrice": 286,
+    "iva": 60.06,
+    "finalPrice": 346.06
+  },
+  {
+    "code": 1001003,
+    "product": "Yerba Mate Union",
+    "stock": 96,
+    "cost": 230,
+    "revenue": 69,
+    "grossPrice": 299,
+    "iva": 62.79,
+    "finalPrice": 361.79
+  },
+  {
+    "code": 1001004,
+    "product": "Yerba Mate Playadito",
+    "stock": 98,
+    "cost": 200,
+    "revenue": 60,
+    "grossPrice": 260,
+    "iva": 54.6,
+    "finalPrice": 314.6
+  },
+  {
+    "code": 1001005,
+    "product": "Yerba Mate Nobleza Gaucha",
+    "stock": 17,
+    "cost": 240,
+    "revenue": 72,
+    "grossPrice": 312,
+    "iva": 65.52,
+    "finalPrice": 377.52
+  },
+  {
+    "code": 1002001,
+    "product": "Desodorante Dove",
+    "stock": 34,
+    "cost": 115,
+    "revenue": 34.5,
+    "grossPrice": 149.5,
+    "iva": 31.4,
+    "finalPrice": 180.9
+  },
+  {
+    "code": 1002002,
+    "product": "Perfume One Million",
+    "stock": 26,
+    "cost": 800,
+    "revenue": 240,
+    "grossPrice": 1040,
+    "iva": 218.4,
+    "finalPrice": 1258.4
+  },
+  {
+    "code": 1002003,
+    "product": "Perfume Lady Million",
+    "stock": 37,
+    "cost": 1200,
+    "revenue": 360,
+    "grossPrice": 1560,
+    "iva": 327.6,
+    "finalPrice": 1887.6
+  },
+  {
+    "code": 1002004,
+    "product": "Perfume Aqua di Gio",
+    "stock": 53,
+    "cost": 1250,
+    "revenue": 375,
+    "grossPrice": 1625,
+    "iva": 341.25,
+    "finalPrice": 1966.25
+  },
+  {
+    "code": 1002005,
+    "product": "Perfume Invictus",
+    "stock": 60,
+    "cost": 900,
+    "revenue": 270,
+    "grossPrice": 1170,
+    "iva": 245.7,
+    "finalPrice": 1415.7
+  },
+  {
+    "code": 1003001,
+    "product": "Leche",
+    "stock": 47,
+    "cost": 75,
+    "revenue": 22.5,
+    "grossPrice": 97.5,
+    "iva": 20.48,
+    "finalPrice": 117.98
+  },
+  {
+    "code": 1003002,
+    "product": "Queso",
+    "stock": 12,
+    "cost": 700,
+    "revenue": 210,
+    "grossPrice": 910,
+    "iva": 191.1,
+    "finalPrice": 1101.1
+  },
+  {
+    "code": 1003003,
+    "product": "Yogurt",
+    "stock": 96,
+    "cost": 80,
+    "revenue": 24,
+    "grossPrice": 104,
+    "iva": 21.84,
+    "finalPrice": 125.84
+  },
+  {
+    "code": 1003004,
+    "product": "Queso crema",
+    "stock": 19,
+    "cost": 240,
+    "revenue": 72,
+    "grossPrice": 312,
+    "iva": 65.52,
+    "finalPrice": 377.52
+  },
+  {
+    "code": 1003005,
+    "product": "Manteca",
+    "stock": 99,
+    "cost": 150,
+    "revenue": 45,
+    "grossPrice": 195,
+    "iva": 40.95,
+    "finalPrice": 235.95
+  },
+  {
+    "code": 1004001,
+    "product": "Detergente",
+    "stock": 61,
+    "cost": 70,
+    "revenue": 21,
+    "grossPrice": 91,
+    "iva": 19.11,
+    "finalPrice": 110.11
+  },
+  {
+    "code": 1004002,
+    "product": "Limpia vidrios",
+    "stock": 48,
+    "cost": 90,
+    "revenue": 27,
+    "grossPrice": 117,
+    "iva": 24.57,
+    "finalPrice": 141.57
+  },
+  {
+    "code": 1004003,
+    "product": "Escoba",
+    "stock": 99,
+    "cost": 120,
+    "revenue": 36,
+    "grossPrice": 156,
+    "iva": 32.76,
+    "finalPrice": 188.76
+  },
+  {
+    "code": 1004004,
+    "product": "Lampazo",
+    "stock": 62,
+    "cost": 150,
+    "revenue": 45,
+    "grossPrice": 195,
+    "iva": 40.95,
+    "finalPrice": 235.95
+  },
+  {
+    "code": 1004005,
+    "product": "Balde",
+    "stock": 65,
+    "cost": 75,
+    "revenue": 22.5,
+    "grossPrice": 97.5,
+    "iva": 20.48,
+    "finalPrice": 117.98
+  },
+  {
+    "code": 1005001,
+    "product": "Tenedor",
+    "stock": 44,
+    "cost": 75,
+    "revenue": 22.5,
+    "grossPrice": 97.5,
+    "iva": 20.48,
+    "finalPrice": 117.98
+  },
+  {
+    "code": 1005002,
+    "product": "Cuchillo",
+    "stock": 99,
+    "cost": 80,
+    "revenue": 24,
+    "grossPrice": 104,
+    "iva": 21.84,
+    "finalPrice": 125.84
+  },
+  {
+    "code": 1005003,
+    "product": "Cuchara",
+    "stock": 80,
+    "cost": 75,
+    "revenue": 22.5,
+    "grossPrice": 97.5,
+    "iva": 20.48,
+    "finalPrice": 117.98
+  },
+  {
+    "code": 1005004,
+    "product": "Vaso",
+    "stock": 20,
+    "cost": 115,
+    "revenue": 34.5,
+    "grossPrice": 149.5,
+    "iva": 31.4,
+    "finalPrice": 180.9
+  },
+  {
+    "code": 1005005,
+    "product": "Cubetera",
+    "stock": 80,
+    "cost": 60,
+    "revenue": 18,
+    "grossPrice": 78,
+    "iva": 16.38,
+    "finalPrice": 94.38
+  },
+  {
+    "code": 1006001,
+    "product": "Plato para comida (mascotas)",
+    "stock": 75,
+    "cost": 200,
+    "revenue": 60,
+    "grossPrice": 260,
+    "iva": 54.6,
+    "finalPrice": 314.6
+  },
+  {
+    "code": 1006002,
+    "product": "Collar",
+    "stock": 35,
+    "cost": 230,
+    "revenue": 69,
+    "grossPrice": 299,
+    "iva": 62.79,
+    "finalPrice": 361.79
+  },
+  {
+    "code": 1006003,
+    "product": "Hueso de juguete",
+    "stock": 83,
+    "cost": 120,
+    "revenue": 36,
+    "grossPrice": 156,
+    "iva": 32.76,
+    "finalPrice": 188.76
+  },
+  {
+    "code": 1006004,
+    "product": "Cucha",
+    "stock": 64,
+    "cost": 3600,
+    "revenue": 1080,
+    "grossPrice": 4680,
+    "iva": 982.8,
+    "finalPrice": 5662.8
+  },
+  {
+    "code": 1006005,
+    "product": "Alimento",
+    "stock": 47,
+    "cost": 1500,
+    "revenue": 450,
+    "grossPrice": 1950,
+    "iva": 409.5,
+    "finalPrice": 2359.5
+  },
+  {
+    "code": 1007001,
+    "product": "Zapatillas",
+    "stock": 24,
+    "cost": 11000,
+    "revenue": 3300,
+    "grossPrice": 14300,
+    "iva": 3003,
+    "finalPrice": 17303
+  },
+  {
+    "code": 1007002,
+    "product": "Remera",
+    "stock": 21,
+    "cost": 1500,
+    "revenue": 450,
+    "grossPrice": 1950,
+    "iva": 409.5,
+    "finalPrice": 2359.5
+  },
+  {
+    "code": 1007003,
+    "product": "Pantalon",
+    "stock": 73,
+    "cost": 2000,
+    "revenue": 600,
+    "grossPrice": 2600,
+    "iva": 546,
+    "finalPrice": 3146
+  },
+  {
+    "code": 1007004,
+    "product": "Medias",
+    "stock": 78,
+    "cost": 250,
+    "revenue": 75,
+    "grossPrice": 325,
+    "iva": 68.25,
+    "finalPrice": 393.25
+  },
+  {
+    "code": 1007005,
+    "product": "Campera",
+    "stock": 59,
+    "cost": 4000,
+    "revenue": 1200,
+    "grossPrice": 5200,
+    "iva": 1092,
+    "finalPrice": 6292
+  },
+  {
+    "code": 1008001,
+    "product": "Coca-Cola",
+    "stock": 94,
+    "cost": 115,
+    "revenue": 34.5,
+    "grossPrice": 149.5,
+    "iva": 31.4,
+    "finalPrice": 180.9
+  },
+  {
+    "code": 1008002,
+    "product": "Pepsi",
+    "stock": 21,
+    "cost": 110,
+    "revenue": 33,
+    "grossPrice": 143,
+    "iva": 30.03,
+    "finalPrice": 173.03
+  },
+  {
+    "code": 1008003,
+    "product": "Sprite",
+    "stock": 51,
+    "cost": 115,
+    "revenue": 34.5,
+    "grossPrice": 149.5,
+    "iva": 31.4,
+    "finalPrice": 180.9
+  },
+  {
+    "code": 1008004,
+    "product": "Quilmes",
+    "stock": 25,
+    "cost": 125,
+    "revenue": 37.5,
+    "grossPrice": 162.5,
+    "iva": 34.13,
+    "finalPrice": 196.63
+  },
+  {
+    "code": 1008005,
+    "product": "Fernet Branca",
+    "stock": 61,
+    "cost": 700,
+    "revenue": 210,
+    "grossPrice": 910,
+    "iva": 191.1,
+    "finalPrice": 1101.1
+  },
+  {
+    "code": 1009001,
+    "product": "Hot Wheels",
+    "stock": 52,
+    "cost": 400,
+    "revenue": 120,
+    "grossPrice": 520,
+    "iva": 109.2,
+    "finalPrice": 629.2
+  },
+  {
+    "code": 1009002,
+    "product": "Max Steel",
+    "stock": 70,
+    "cost": 2000,
+    "revenue": 600,
+    "grossPrice": 2600,
+    "iva": 546,
+    "finalPrice": 3146
+  },
+  {
+    "code": 1009003,
+    "product": "Barbie",
+    "stock": 35,
+    "cost": 2300,
+    "revenue": 690,
+    "grossPrice": 2990,
+    "iva": 627.9,
+    "finalPrice": 3617.9
+  },
+  {
+    "code": 1009004,
+    "product": "Ula ula 2.0",
+    "stock": 49,
+    "cost": 560,
+    "revenue": 168,
+    "grossPrice": 728,
+    "iva": 152.88,
+    "finalPrice": 880.88
+  },
+  {
+    "code": 1009005,
+    "product": "Nimbus 2000",
+    "stock": 40,
+    "cost": 89553,
+    "revenue": 26865.9,
+    "grossPrice": 116418.9,
+    "iva": 24447.97,
+    "finalPrice": 140866.87
+  },
+  {
+    "code": 1010001,
+    "product": "Pan",
+    "stock": 49,
+    "cost": 80,
+    "revenue": 24,
+    "grossPrice": 104,
+    "iva": 21.84,
+    "finalPrice": 125.84
+  },
+  {
+    "code": 1010002,
+    "product": "Medialunas",
+    "stock": 46,
+    "cost": 240,
+    "revenue": 72,
+    "grossPrice": 312,
+    "iva": 65.52,
+    "finalPrice": 377.52
+  },
+  {
+    "code": 1010003,
+    "product": "Sandwich de miga",
+    "stock": 35,
+    "cost": 300,
+    "revenue": 90,
+    "grossPrice": 390,
+    "iva": 81.9,
+    "finalPrice": 471.9
+  },
+  {
+    "code": 1010004,
+    "product": "Pepas",
+    "stock": 41,
+    "cost": 100,
+    "revenue": 30,
+    "grossPrice": 130,
+    "iva": 27.3,
+    "finalPrice": 157.3
+  },
+  {
+    "code": 1010005,
+    "product": "Cremona",
+    "stock": 36,
+    "cost": 200,
+    "revenue": 60,
+    "grossPrice": 260,
+    "iva": 54.6,
+    "finalPrice": 314.6
+  }
+]

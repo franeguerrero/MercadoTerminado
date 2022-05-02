@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=M+PLUS+Rounded+1c:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  width: 15px;
+  height: 8px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+body::-webkit-scrollbar-thumb {
+  border: 3px #ffffff solid;
+  background-color: #004a88;
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  color: #004a88;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+}
+header h2 {
+  font-size: 2rem;
+  margin-left: 30px;
+  cursor: pointer;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+header nav ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #004a88;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li a i {
+  height: 27px;
+  font-size: 20px;
+}
+header nav ul li:last-child {
+  margin-right: 30px;
+}
+
+#products {
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #004a88;
+}
+.product img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.product {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  height: 360px;
+  width: 300px;
+  justify-content: space-evenly;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #00000033;
+}
+.product h5 {
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-size: 20px;
+}
+.product p {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #004a88;
+  font-size: 20px;
+}
+.product .name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+.product .stock {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 0 15px;
+  padding-right: 15px;
+  align-items: center;
+}
+.product .stock input {
+  border: none;
+  text-align: right;
+  width: 40px;
+  color: #aaaaaa;
+  font-size: 15px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.product .stock input::-webkit-outer-spin-button,
+.product .stock input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.product .stock input[type="number"] {
+  -moz-appearance: textfield;
+}
+.product .stock input:focus {
+  outline: none;
+}
+.product .stock p {
+  color: #aaaaaa;
+  font-size: 15px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+button {
+  border: none;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #ffffff;
+  background-color: #004a88;
+  font-size: 15px;
+  border-radius: 9px;
+  width: 90%;
+  margin: 0 auto 15px auto;
+  padding: 5px;
+  transition: 400ms;
+}
+button:hover {
+  color: #004a88;
+  outline: 1px solid #004a88;
+  outline-offset: -1px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+#fix {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#cart {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  width: 500px;
+  height: 600px;
+  border: 1px solid #004a88;
+  border-bottom: none;
+  border-radius: 50px 50px 0 0;
+  background-color: #ffffff;
+  bottom: -558px;
+  align-items: initial;
+  justify-content: center;
+  transition: 500ms;
+}
+#cart.activated {
+  bottom: 0;
+}
+#cart #buyBtn {
+  height: 30px;
+  position: absolute;
+  margin-top: 560px;
+  bottom: 0;
+}
+
+#openCart {
+  position: absolute;
+  padding: 10px;
+  height: 40px;
+  color: #004a88;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#cartListView {
+  display: flex;
+  flex-direction: column;
+  height: 480px;
+  width: 80%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+#cartListView::-webkit-scrollbar {
+  width: 15px;
+  height: 8px;
+}
+#cartListView::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+#cartListView::-webkit-scrollbar-thumb {
+  background-color: #004a88;
+  border: 3px #ffffff solid;
+  border-radius: 10px;
+}
+
+.addedProduct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 90px;
+  width: 100%;
+}
+.addedProduct img {
+  width: 30%;
+}
+.addedProductName {
+  margin-left: 10px;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-size: 20px;
+  font-weight: 900;
+}
+.totalPrice {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color: #004a88;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.dataProduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* CONTACTO */
+#contact {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  left: 50%;
+  top: 50%;
+  height: 600px;
+  width: 500px;
+  margin-top: -300px;
+  margin-left: 15px;
+
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+#contact input,
+textarea,
+::placeholder {
+  color: #ffffff;
+  background-color: #004a88;
+  border-radius: 15px;
+  border: none;
+  padding: 15px;
+  margin: 15px;
+  font-size: 20px;
+  width: 500px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  overflow-x: hidden;
+  overflow-y: auto;
+  resize: none;
+}
+#fnameLname {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+#promo {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#banner {
+  margin: 10px;
+  height: 350px;
+}
+#lilBannerGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lilBanner {
+  height: 460px;
+  margin: 10px;
+}
+footer {
+  margin-top: 15px;
+  background-color: #004a88;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  font-family: "Inter", sans-serif;
+  margin: 20px;
+  color: #ffffff;
+  font-size: 15px;
+}
+footer a {
+  margin: 20px;
+  color: #ffffff;
+  font-size: 20px;
+}
